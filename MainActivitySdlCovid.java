@@ -25,6 +25,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
 boolean flag= false;
+boolean flag2=true;
     public class DownloadTask extends AsyncTask<String,Void,String> {
 
         @Override
